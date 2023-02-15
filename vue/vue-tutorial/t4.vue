@@ -1,0 +1,20 @@
+<!-- https://cn.vuejs.org/tutorial/#step-4 -->
+
+<script>
+export default {
+  data() {
+    return {
+      count: 0,
+    };
+  },
+  methods: {
+    increment() {
+      this.count++;
+    },
+  },
+};
+</script>
+
+<template>
+  <button @click="increment">count is: {{ count }}</button>
+</template>
